@@ -90,14 +90,7 @@
       "tag": "mixed-in",
       "listen": "0.0.0.0",
       "listen_port": 2080,
-      "sniffing": {
-        "enabled": true,
-        "dest_override": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
+      "sniff": true
     },
     {
       "type": "tun",
@@ -109,14 +102,7 @@
       "auto_route": true,
       "strict_route": true,
       "stack": "mixed",
-      "sniffing": {
-        "enabled": true,
-        "dest_override": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
+      "sniff": true
     }
   ],
   "outbounds": [],
